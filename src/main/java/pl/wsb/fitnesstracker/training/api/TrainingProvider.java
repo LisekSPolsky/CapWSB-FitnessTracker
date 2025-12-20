@@ -2,6 +2,10 @@ package pl.wsb.fitnesstracker.training.api;
 
 import java.util.Optional;
 
+/**
+ * Interface for retrieving training information from the system.
+ * Provides read-only access to training data.
+ */
 public interface TrainingProvider {
 
     /**

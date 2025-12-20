@@ -3,6 +3,10 @@ package pl.wsb.fitnesstracker.user.api;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * Interface for retrieving user information from the system.
+ * Provides read-only access to user data.
+ */
 public interface UserProvider {
 
     /**
@@ -30,7 +34,13 @@ public interface UserProvider {
      */
     List<User> findAllUsers();
 
-
+    /**
+     * Retrieves a user based on their first and last name.
+     *
+     * @param firstName the first name to search for
+     * @param lastName the last name to search for
+     * @return An {@link Optional} containing the located user, or {@link Optional#empty()} if not found
+     */
     Optional<User> getUserByFirstNameAndLastName(String firstName, String lastName);
 
 }
