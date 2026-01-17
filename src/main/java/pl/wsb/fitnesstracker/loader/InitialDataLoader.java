@@ -84,26 +84,26 @@ class InitialDataLoader {
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
             Training training1 = new Training(users.get(0),
-                    sdf.parse("2024-01-19 08:00:00"),
-                    sdf.parse("2024-01-19 09:30:00"),
+                    sdf.parse("2026-01-19 08:00:00"),
+                    sdf.parse("2026-01-19 09:30:00"),
                     ActivityType.RUNNING,
                     10.5,
                     8.2);
             Training training2 = new Training(users.get(1),
-                    sdf.parse("2024-01-18 15:30:00"),
-                    sdf.parse("2024-01-18 17:00:00"),
+                    sdf.parse("2026-01-18 15:30:00"),
+                    sdf.parse("2026-01-18 17:00:00"),
                     ActivityType.CYCLING,
                     25.0,
                     18.5);
             Training training3 = new Training(users.get(2),
-                    sdf.parse("2024-01-17 07:45:00"),
-                    sdf.parse("2024-01-17 09:00:00"),
+                    sdf.parse("2026-01-17 07:45:00"),
+                    sdf.parse("2026-01-17 09:00:00"),
                     ActivityType.WALKING,
                     5.2,
                     5.8);
             Training training4 = new Training(users.get(3),
-                    sdf.parse("2024-01-16 18:00:00"),
-                    sdf.parse("2024-01-16 19:30:00"),
+                    sdf.parse("2026-01-16 18:00:00"),
+                    sdf.parse("2026-01-16 19:30:00"),
                     ActivityType.RUNNING,
                     12.3,
                     9.0);
@@ -138,8 +138,8 @@ class InitialDataLoader {
                     4.2,
                     4.5);
             Training training10 = new Training(users.get(9),
-                    sdf.parse("2024-01-10 14:00:00"),
-                    sdf.parse("2024-01-10 15:15:00"),
+                    sdf.parse("2026-01-10 14:00:00"),
+                    sdf.parse("2026-01-10 15:15:00"),
                     ActivityType.RUNNING,
                     11.8,
                     8.5);
